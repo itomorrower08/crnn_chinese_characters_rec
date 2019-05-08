@@ -13,6 +13,8 @@ There are images in test_images file, and you just run as follow.
 ## Train
 before traning, you should prepare the dataset of characters.(described in csdn blog)
 
+you can also read this blog to see how to create your dataset:https://www.cnblogs.com/skyfsm/p/10345305.html
+
 * python3 crnn_main.py --train_root (path of train lmdb dataset) --val_root (path of val lmdb dataset) --cuda(if have)
 
 
